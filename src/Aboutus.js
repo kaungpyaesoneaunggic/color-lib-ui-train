@@ -6,7 +6,7 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 export default function Aboutus() {
   return (
-    <div style={{marginTop:'150px', marginBottom:'150px', display:'flex',  flexDirection:'row', justifyContent:'space-between', }}>
+    <div id='About' style={{marginTop:'150px', marginBottom:'150px', display:'flex',  flexDirection:'row', justifyContent:'space-between', }}>
       <img src={aboutusimg} className='img-fluid' style={{ width:'609px', objectFit:'fill'}}>
       </img>
       <div style={{ width:'300px', }}>

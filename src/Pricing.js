@@ -7,8 +7,8 @@ import Primarybutton from './components/PrimarybuttonBig'
 
 export default function Pricing() {
   return (
-    <div style={{backgroundColor:accentGrey , paddingTop:'50px', paddingBottom:'20px'}}>
-      <p style={{ fontSize:'35px', color:'black', textAlign:'center', }}>
+    <div id='Pricing' style={{backgroundColor:accentGrey , paddingTop:'50px', paddingBottom:'20px'}}>
+      <p  style={{ fontSize:'35px', color:'black', textAlign:'center', }}>
         Pricing
       </p>
       <p  style={{ fontSize:'15px', textAlign:'center' }}>Pricing for everyone. Choose your plan now!</p>

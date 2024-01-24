@@ -8,10 +8,10 @@ import user from './images/userone.jpg'
 
 export default function Features() {
   return (
-    <div style={{display:'flex', justifyContent:'start',alignItems:'center', direction:'column', margin:'20px 0px 20px 0px'}}>
-      <div style={{width:'480px'  }}>
-        <p style={{ color:primaryColor, fontSize:'18px'}}>DIGITAL SERVICES</p>
-        <p style={{ color:'black',fontSize:'40px', width:'250px'}}>Selling Digital Services</p>
+    <div  style={{display:'flex', justifyContent:'start',alignItems:'center', direction:'column', margin:'20px 0px 20px 0px'}}>
+      <div  id='Features'  style={{width:'480px'  }}>
+        <p  style={{ color:primaryColor, fontSize:'18px'}}>DIGITAL SERVICES</p>
+        <p  style={{ color:'black',fontSize:'40px', width:'250px'}}>Selling Digital Services</p>
         <p style={{ fontSize:'18px' }}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast</p>
         <p style={{ fontSize:'18px' }}><FontAwesomeIcon icon={faCheck} color={primaryColor}/> There live the blind texts</p>
         <p style={{ fontSize:'18px' }}><FontAwesomeIcon icon={faCheck} color={primaryColor}/> Far far away behind the word</p>
