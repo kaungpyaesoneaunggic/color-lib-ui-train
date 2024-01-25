@@ -1,14 +1,13 @@
 import React from "react";
+import { Nav, Dropdown } from "react-bootstrap";
 
 const DropdownMenu = () => {
   return (
-    <div className="dropdown-menu">
-      <ul>
-        <li>Menu 1</li>
-        <li>Menu 2</li>
-        <li>Menu 3</li>
-      </ul>
-    </div>
+    <Dropdown.Menu>
+      <Dropdown.Item>Menu 1</Dropdown.Item>
+      <Dropdown.Item>Menu 2</Dropdown.Item>
+      <Dropdown.Item>Menu 3</Dropdown.Item>
+    </Dropdown.Menu>
   );
 };
 

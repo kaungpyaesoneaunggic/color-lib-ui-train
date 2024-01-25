@@ -1,23 +1,21 @@
-import React from "react";
+import React, { useRef } from "react";
 import { primaryColor } from "./constants/constant";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import UserCard from "./components/UserCard";
-import usertwo from "./images/usertwo.jpg";
-import userone from "./images/userone.jpg";
-import CarouselCustom from "./components/CarouselCustom";
-import Carousel from "./components/Carousel";
+import CarouselSlick from "./components/CarouselSlick";
 
 export default function Testimonials() {
-
-  const items = [
-    { image: userone, caption: 'Caption 1' },
-    { image: usertwo, caption: 'Caption 2' },
-    { image: userone, caption: 'Caption 3' },
-    { image: userone, caption: 'Caption 3' },
-    // Add more items as needed
-  ];
-
+  // const carouselRef = useRef();
+  // const goToPrev = () => {
+  //   if (carouselRef.current && carouselRef.current.goToPrev) {
+  //     carouselRef.current.goToPrev();
+  //   }
+  // };
+  // const goToNext = () => {
+  //   if (carouselRef.current && carouselRef.current.goToNext) {
+  //     carouselRef.current.goToNext();
+  //   }
+  // };
   return (
     <div
       style={{
@@ -42,36 +40,11 @@ export default function Testimonials() {
           </button>
         </div>
       </div>
-      <div style={{ display: "flex", flexDirection: "row" }}>
-        <div style={{ width: "300px", margin: "10px" }}>
-          <p style={{ fontStyle: "italic", color: "black" }}>
-            “Separated they live in Bookmarksgrove right at the coast of the
-            Semantics, a large language ocean. A small river named Duden flows
-            by their place and supplies it with the necessary regelialia. ”
-          </p>
-          <UserCard
-            image={usertwo}
-            job={"CEO | Meta"}
-            text={"Mark Zuckerberg"}
+        <div style={{ width: "700px", margin: "10px" }}>
+          <CarouselSlick
+          // ref={carouselRef}
           />
         </div>
-        <div style={{ width: "300px", margin: "10px" }}>
-          <p style={{ fontStyle: "italic", color: "black" }}>
-            “Separated they live in Bookmarksgrove right at the coast of the
-            Semantics, a large language ocean. A small river named Duden flows
-            by their place and supplies it with the necessary regelialia. ”
-          </p>
-          <UserCard
-            image={userone}
-            job={"CEO | Meta"}
-            text={"Mark Zuckerberg"}
-          />
-        </div>
-      </div>
-
-      {/* <Carousel items={items} /> */}
-
-
     </div>
   );
 }
