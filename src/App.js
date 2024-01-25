@@ -11,11 +11,11 @@ import { accentGrey } from './constants/constant';
 import Testimonials from './Testimonials';
 import Aboutus from './Aboutus';
 import News from './News';
-import GetInTouch from './GetInTouch';
 import Footer from './Footer';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
+import Contact from './Contact';
 
 
 
@@ -82,11 +82,11 @@ function App() {
       {/* white */}
       <div style={{padding:'0px 8% 0px 8%',overflow:'hidden'}}>
       <div data-aos="fade-up">
-        <GetInTouch/>
+        <Contact/>
         </div>
       </div>
 
-      <div style={{padding:'120px 8% 120px 8%',overflow:'hidden', backgroundColor:'#EFEFEF', }}>
+      <div style={{padding:'5% 8% 5% 8%',overflow:'hidden', backgroundColor:'#EFEFEF', }}>
         <Footer/>
       </div>
     </div>

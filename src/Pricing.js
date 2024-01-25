@@ -7,7 +7,7 @@ import Primarybutton from './components/PrimarybuttonBig'
 
 export default function Pricing() {
   return (
-    <div id='Pricing' style={{backgroundColor:accentGrey , paddingTop:'50px', paddingBottom:'20px'}}>
+    <div className='col-lg-12 row-lg-6 d-flex flex-column justify-content-center py-5' id='Pricing' style={{backgroundColor:accentGrey , paddingTop:'50px', paddingBottom:'20px'}}>
       <p  style={{ fontSize:'35px', color:'black', textAlign:'center', }}>
         Pricing
       </p>
@@ -18,7 +18,7 @@ export default function Pricing() {
 
       
       {/* Column 1 start */}
-      <div style={{display:'flex', alignItems:'center',flexDirection:'column' ,width:'300px', height:'550px', backgroundColor:'white', borderRadius:'40px',padding:'60px 20px 60px 20px',margin:'10px' }}>
+      <div className='col-lg-3 row-lg-4' style={{display:'flex', alignItems:'center',flexDirection:'column' , backgroundColor:'white', borderRadius:'40px',padding:'60px 0px 60px 0px',margin:'10px' }}>
         <p style={{ color:'black',fontSize:'30px' }}>Free</p>
         <p style={{ color:primaryColor,fontSize:'35px' }}>$0</p>
 
@@ -47,7 +47,8 @@ export default function Pricing() {
 
 
       {/* Column 2 start */}
-      <div style={{display:'flex', alignItems:'center',flexDirection:'column' ,width:'300px', height:'550px', backgroundColor:'white', borderRadius:'40px',padding:'60px 20px 60px 20px',margin:'10px' }}>
+      <div className='col-lg-3 row-lg-4' style={{display:'flex', alignItems:'center',flexDirection:'column' , backgroundColor:'white', borderRadius:'40px',padding:'60px 20px 60px 20px',margin:'10px' }}>
+
         <p style={{ color:'black',fontSize:'30px' }}>Standard</p>
         <p style={{ color:primaryColor,fontSize:'35px' }}>$19.99</p>
 
@@ -75,7 +76,8 @@ export default function Pricing() {
       {/* Column 2 End */}
 
       {/* Column 3 start */}
-      <div style={{display:'flex', alignItems:'center',flexDirection:'column' ,width:'300px', height:'550px', backgroundColor:'white', borderRadius:'40px',padding:'60px 20px 60px 20px',margin:'10px' }}>
+      <div className='col-lg-3 row-lg-4' style={{display:'flex', alignItems:'center',flexDirection:'column' , backgroundColor:'white', borderRadius:'40px',padding:'60px 20px 60px 20px',margin:'10px' }}>
+
         <p style={{ color:'black',fontSize:'30px' }}>Premium</p>
         <p style={{ color:primaryColor,fontSize:'35px' }}>$79.99</p>
 

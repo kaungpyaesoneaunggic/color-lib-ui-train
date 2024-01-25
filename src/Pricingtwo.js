@@ -20,7 +20,7 @@ export default function Pricingtwo() {
           color={accentRed}
           icon={faRefresh}
           toptext={'Grow Your Business'}/>
-          <p style={{ color:primaryColor, margin:'0px' , marginLeft:'140px'}}>Learn More</p>
+          <p style={{ color:primaryColor, margin:'0px', marginLeft:'18%' }}>Learn More</p>
        </div>
 
        {/* card 2 */}
@@ -29,7 +29,7 @@ export default function Pricingtwo() {
           color={accentYellow}
           icon={faCode}
           toptext={'Build Products'}/>
-          <p style={{ color:primaryColor, margin:'0px' , marginLeft:'140px'}}>Learn More</p>
+          <p style={{ color:primaryColor, margin:'0px' , marginLeft:'18%'}}>Learn More</p>
        </div>
     </div>
     <br></br>
@@ -41,16 +41,16 @@ export default function Pricingtwo() {
           color={accentCyan}
           icon={faTasks}
           toptext={'Grow Your Business'}/>
-          <p style={{ color:primaryColor, margin:'0px' , marginLeft:'140px'}}>Learn More</p>
+          <p style={{ color:primaryColor, margin:'0px' ,  marginLeft:'18%'}}>Learn More</p>
        </div>
 
        {/* card 4 */}
-       <div style={{width:'500px',display:'flex', justifyContent:'start', flexDirection:'column'}}>
+      <div style={{width:'500px',display:'flex', justifyContent:'start', flexDirection:'column'}}>
           <MotoCard
           color={primaryColor}
           icon={faSuitcase}
           toptext={'Build Products'}/>
-          <p style={{ color:primaryColor, margin:'0px' , marginLeft:'140px'}}>Learn More</p>
+          <p style={{ color:primaryColor, margin:'0px' , marginLeft:'18%'}}>Learn More</p>
        </div>
     </div>
 

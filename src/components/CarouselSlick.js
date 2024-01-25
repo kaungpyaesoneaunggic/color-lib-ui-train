@@ -16,9 +16,8 @@ export default function CarouselSlick() {
     slidesToScroll: 1,
   }
   return (
-      <div>
-        <Slider  {...settings}>
-        <div style={{ width: "300px", margin: "10px" }}>
+        <Slider className='col-lg-12'  {...settings}>
+        <div className='col-lg-3' style={{margin: "10px" }}>
           <p style={{ fontStyle: "italic", color: "black" }}>
               “Separated they live in Bookmarksgrove right at the coast of the
               Semantics, a large language ocean. A small river named Duden flows
@@ -31,7 +30,7 @@ export default function CarouselSlick() {
             />
           </div>
   
-          <div style={{ width: "300px", margin: "10px" }}>
+          <div className='col-lg-3' style={{ margin: "10px" }}>
           <p style={{ fontStyle: "italic", color: "black" }}>
               “Separated they live in Bookmarksgrove right at the coast of the
               Semantics, a large language ocean. A small river named Duden flows
@@ -45,7 +44,7 @@ export default function CarouselSlick() {
           </div>
   
   
-          <div style={{ width: "300px", margin: "10px" }}>
+          <div className='col-lg-3' style={{ margin: "10px" }}>
           <p style={{ fontStyle: "italic", color: "black" }}>
               “Separated they live in Bookmarksgrove right at the coast of the
               Semantics, a large language ocean. A small river named Duden flows
@@ -59,7 +58,6 @@ export default function CarouselSlick() {
           </div>
   
         </Slider>
-      </div>
     )
 }
 

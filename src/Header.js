@@ -22,7 +22,7 @@ export default function Header() {
         top: 0,
         left: 0,
         width: '100%',
-        padding:'10px 80px 0px 80px',
+        padding:'10px 8% 0px 8%',
         backgroundColor:'white',
         boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
         zIndex:'10'}}

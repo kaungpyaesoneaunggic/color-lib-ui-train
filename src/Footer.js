@@ -56,8 +56,8 @@ export default function Footer() {
 <h3 style={{ color:'black', fontSize:'18px' }}>Contact</h3>
 <address>43 Raymouth Rd. Baltemoer, London 3910</address>
 <ul className="list-unstyled links mb-4">
-<li><a style={{ textDecoration:'none',color:lightText}} href="tel://11234567890">+1(123)-456-7890</a></li>
-<li><a style={{ textDecoration:'none',color:lightText}} href="tel://11234567890">+1(123)-456-7890</a></li>
+<li><a style={{ textDecoration:'none',color:lightText}} >+1(123)-456-7890</a></li>
+<li><a style={{ textDecoration:'none',color:lightText}}>+1(123)-456-7890</a></li>
 <li><a style={{ textDecoration:'none',color:lightText}} href="mailto:info@mydomain.com">info@mydomain.com</a></li>
 </ul>
 </div> 

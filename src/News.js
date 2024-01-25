@@ -6,7 +6,7 @@ import usertwo from './images/usertwo.jpg'
 
 export default function News() {
   return (
-    <div style={{paddingTop:'50px',paddingBottom:'130px' }}>
+    <div className='py-5'>
       <p style={{ fontSize:'35px', color:'black', textAlign:'center' }}>
         Our News
       </p>
@@ -14,7 +14,7 @@ export default function News() {
         Far from the countries Vokalia and Consonantia
         </p>
       <br></br>
-      <div style={{ display:'flex',flexDirection:'row', justifyContent:'space-around' }}>
+      <div className='d-flex flex-wrap justify-content-around' >
 
         <UserPostCard
         user={'James'}

@@ -18,15 +18,13 @@ export default function Testimonials() {
   // };
   return (
     <div
+      className="d-flex flex-wrap justify-content-center col-lg-12"
       style={{
         marginTop: "150px",
         marginBottom: "150px",
-        display: "flex",
-        flexDirection: "row",
-        justifyContent: "center",
       }}
     >
-      <div style={{ width: "300px" }}>
+      <div className="col-lg-5">
         <p style={{ color: primaryColor }}>Testimonials</p>
         <p style={{ color: "black", fontSize: "35px" }}>
           Our Customers Feedbck
@@ -40,7 +38,7 @@ export default function Testimonials() {
           </button>
         </div>
       </div>
-        <div style={{ width: "700px", margin: "10px" }}>
+        <div className="col-lg-6" style={{ margin: "10px" }}>
           <CarouselSlick
           // ref={carouselRef}
           />

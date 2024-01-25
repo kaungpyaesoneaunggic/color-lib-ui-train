@@ -5,7 +5,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 export default function UserPostCard({user,date,image,text}) {
   return (
-    <div style={{ width:'350px', backgroundColor:'white', padding:'25px' }}>
+    <div className='col-md-3 row-md-6 m-2' style={{ backgroundColor:'white', padding:'25px' }}>
       <UserCard
       image={image}
       job={date}

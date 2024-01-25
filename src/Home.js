@@ -5,13 +5,13 @@ import Outlinebuttonbig from './components/OutlinebuttonBig'
 import Primarybutton from './components/PrimarybuttonBig'
 export default function Home() {
   return (
-    <div id='Home' style={{ display: 'flex', flexDirection: 'row', justifyContent: 'start', margin: '60px 0px 20px 0px', flexWrap: 'wrap' }}>
-      <div style={{ flex: '1', minWidth: '300px', maxWidth: '80vw', margin: '0 20px', textAlign:'center' }}>
-        <p style={{ color: 'black', fontWeight: 'bold', fontSize: '55px' }}>Promote your Products with Colorlib</p>
-        <p style={{ fontSize: '23px' }}>
+    <div id='Home' className='d-flex flex-wrap flex-row justify-content-start py-5 col-lg-12' style={{ margin: '60px 0px 20px 0px'}}>
+      <div className='' style={{ flex: '1', minWidth: '300px', textAlign:'center' }}>
+        <p className='col-md-8' style={{ color: 'black', fontWeight: 'bold',fontSize: '49px' ,textAlign:'start', fontFamily:'sans-serif' }}>Promote Your Products by Colorlib</p>
+        <p style={{ fontSize: '20px' , textAlign:'start'}}>
           Another cool free html css template by <span style={{ color: primaryColor }}>Colorlib</span> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
         </p>
-        <div style={{ direction: 'column', width: '400px' }}>
+        <div style={{ direction: 'column',textAlign:'start' }}>
           <Primarybutton text={'See Features'} />
           <Outlinebuttonbig text={'Pricing'} />
         </div>
