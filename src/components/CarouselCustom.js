@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./CarouselCustom.css";
 import UserCard from "./UserCard";
 
 const CarouselCusom = ({ items }) => {
