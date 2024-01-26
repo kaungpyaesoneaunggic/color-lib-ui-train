@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { accentCyan, accentGrey, lightText, primaryColor } from './constants/constant'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
+import './Footer.css'
+
 
 export default function Footer() {
   return (
@@ -19,12 +21,12 @@ export default function Footer() {
 <div className="widget">
 <h3 style={{ color:'black', fontSize:'18px' }}>Connect</h3>
 <ul className="list-unstyled" style={{ display:'flex', flexDirection:'row'}}>
-<li  style={{ backgroundColor:'grey',textAlign:'center',textJustify:'center',padding:'5px', borderRadius:'100%', width:'30px',height:'30px'}}><a href="#"><FontAwesomeIcon icon={faInstagram} style={{color:'white', marginBottom:'2px'}}/></a></li>
-<li  style={{ backgroundColor:'grey',textAlign:'center',textJustify:'center',padding:'5px', borderRadius:'100%', width:'30px',height:'30px'}}><a href="#"><FontAwesomeIcon icon={faTwitter} style={{color:'white', marginBottom:'2px'}}/></a></li>
-<li  style={{ backgroundColor:'grey',textAlign:'center',textJustify:'center',padding:'5px', borderRadius:'100%', width:'30px',height:'30px'}}><a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:'white', marginBottom:'2px'}}/></a></li>
-<li  style={{ backgroundColor:'grey',textAlign:'center',textJustify:'center',padding:'5px', borderRadius:'100%', width:'30px',height:'30px'}}><a href="#"><FontAwesomeIcon icon={faPinterest} style={{color:'white', marginBottom:'2px'}}/></a></li>
-<li  style={{ backgroundColor:'grey',textAlign:'center',textJustify:'center',padding:'5px', borderRadius:'100%', width:'30px',height:'30px'}}><a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:'white', marginBottom:'2px'}}/></a></li>
-<li  style={{ backgroundColor:'grey',textAlign:'center',textJustify:'center',padding:'5px', borderRadius:'100%', width:'30px',height:'30px'}}><a href="#"><FontAwesomeIcon icon={faDribbble} style={{color:'white', marginBottom:'2px'}}/></a></li>
+<li  className="social-icons"><a href="#"><FontAwesomeIcon icon={faInstagram} /></a></li>
+<li  className="social-icons"><a href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
+<li  className="social-icons"><a href="#"><FontAwesomeIcon icon={faFacebook} /></a></li>
+<li  className="social-icons"><a href="#"><FontAwesomeIcon icon={faPinterest} /></a></li>
+<li  className="social-icons"><a href="#"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+<li  className="social-icons"><a href="#"><FontAwesomeIcon icon={faDribbble}/></a></li>
 </ul>
 </div> 
 </div> 
@@ -32,11 +34,11 @@ export default function Footer() {
 <div className="widget">
 <h3 style={{ color:'black', fontSize:'18px' }}>Projects</h3>
 <ul className="list-unstyled float-left links">
-<li><a style={{ textDecoration:'none',color:lightText}} href="#">La Lega Stadium</a></li>
-<li><a style={{ textDecoration:'none',color:lightText}} href="#">France Building</a></li>
-<li><a style={{ textDecoration:'none',color:lightText}} href="#">22 New Homes</a></li>
-<li><a style={{ textDecoration:'none',color:lightText}} href="#">Manage Center</a></li>
-<li><a style={{ textDecoration:'none',color:lightText}} href="#">Sports Hall</a></li>
+<li className='link-item'><a style={{ textDecoration:'none',color:lightText}} href="#">La Lega Stadium</a></li>
+<li className='link-item'><a href="#">France Building</a></li>
+<li className='link-item'><a href="#">22 New Homes</a></li>
+<li className='link-item'><a href="#">Manage Center</a></li>
+<li className='link-item'><a href="#">Sports Hall</a></li>
 </ul>
 </div> 
 </div> 
@@ -44,10 +46,10 @@ export default function Footer() {
 <div className="widget">
 <h3 style={{ color:'black', fontSize:'18px' }}>Services</h3>
 <ul className="list-unstyled float-left links">
-<li><a href="#" style={{ textDecoration:'none',color:lightText}}>Architect</a></li>
-<li><a href="#" style={{ textDecoration:'none',color:lightText}}>Interior Design</a></li>
-<li><a href="#" style={{ textDecoration:'none',color:lightText}}>Landscape Design</a></li>
-<li><a href="#" style={{ textDecoration:'none',color:lightText}}>Consultancy</a></li>
+<li className='link-item'><a href="#">Architect</a></li>
+<li className='link-item'><a href="#">Interior Design</a></li>
+<li className='link-item'><a href="#">Landscape Design</a></li>
+<li className='link-item'><a href="#">Consultancy</a></li>
 </ul>
 </div> 
 </div> 

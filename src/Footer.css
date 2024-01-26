@@ -1,0 +1,23 @@
+.social-icons {
+  background-color: grey;
+  text-align: center;
+  text-justify: center;
+  padding: 5px;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+
+.social-icons a {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.link-item {
+  list-style: none;
+}
+
+.link-item a {
+  text-decoration: none;
+  color: grey;
+}
