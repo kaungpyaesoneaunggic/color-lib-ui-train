@@ -22,7 +22,6 @@ import Contact from './Contact';
 function App() {
   useEffect(()=>{
     AOS.init( {duration:2000, once:'true',})
-    
   },[])
   return (
     <div className="App">
@@ -86,7 +85,7 @@ function App() {
         </div>
       </div>
 
-      <div style={{padding:'5% 8% 5% 8%',overflow:'hidden', backgroundColor:'#EFEFEF', }}>
+      <div style={{padding:'5% 8% 2% 8%',overflow:'hidden', backgroundColor:'#EFEFEF', }}>
         <Footer/>
       </div>
     </div>

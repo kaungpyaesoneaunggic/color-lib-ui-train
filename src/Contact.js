@@ -91,11 +91,11 @@ export default function Contact() {
                   ></textarea>
                 </div>
                 <div className="my-4">
-                <PrimarybuttonBig text={"Send Message"} />
+                  <PrimarybuttonBig text={"Send Message"} />
                 </div>
               </form>
             </div>
-            <div className="col-lg-4" style={{ marginLeft:'auto' }}>
+            <div className="col-lg-4" style={{ marginLeft: "auto" }}>
               <h3 className="h5 mb-4">Contact Info</h3>
               <address className="text-black d-flex">
                 <span className="mt-1 icon-room mr-2"></span>
@@ -104,12 +104,14 @@ export default function Contact() {
               <ul className="list-unstyled ul-links mb-4">
                 <li>
                   <a style={{ textDecoration: "none", color: lightText }}>
-                  <FontAwesomeIcon icon={faPhone} color="black"/>  +1(123)-456-7890
+                    <FontAwesomeIcon icon={faPhone} color="black" />{" "}
+                    +1(123)-456-7890
                   </a>
                 </li>
                 <li>
                   <a style={{ textDecoration: "none", color: lightText }}>
-                  <FontAwesomeIcon icon={faPhone} color="black"/>  +1(123)-456-7890
+                    <FontAwesomeIcon icon={faPhone} color="black" />{" "}
+                    +1(123)-456-7890
                   </a>
                 </li>
                 <li>
@@ -117,7 +119,8 @@ export default function Contact() {
                     style={{ textDecoration: "none", color: lightText }}
                     href="mailto:info@mydomain.com"
                   >
-                  <FontAwesomeIcon icon={faGlobe} color="black"/> info@mydomain.com
+                    <FontAwesomeIcon icon={faGlobe} color="black" />{" "}
+                    info@mydomain.com
                   </a>
                 </li>
               </ul>

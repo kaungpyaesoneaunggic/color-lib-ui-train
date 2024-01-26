@@ -14,7 +14,7 @@ export default function MotoCard({toptext,color, icon}) {
 
 
   return (
-    <div className='d-flex flex-row col-md-12 justify-content-center align-items-start' style={{margin:'10px',borderRadius:'10px',backgroundColor: isHovered ? 'white' : 'transparent'}}
+    <div className='d-flex flex-row col-md-12  justify-content-center align-items-start' style={{margin:'10px',borderRadius:'10px',backgroundColor: isHovered ? 'white' : 'transparent'}}
     onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
@@ -22,9 +22,10 @@ export default function MotoCard({toptext,color, icon}) {
         <FontAwesomeIcon icon={icon} style={{ color:'white', width:'25px', height:'25px'}}/>
       </div>
       <div style={{ width:'300px'}}>
-        <p style={{ color:'black', fontSize:'20px', margin:'0' }}>{toptext}</p>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+        <p style={{ color:'black', fontSize:'20px', margin:'0' , textAlign:'start'}}>{toptext}</p>
+        <p style={{ textAlign:'start' }}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
       </div>
+      
 
     </div>
   )

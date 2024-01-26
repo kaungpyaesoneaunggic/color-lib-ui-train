@@ -1,23 +1,63 @@
-import React from 'react'
-import marketlaunch from './images/market-launch-pana.svg'
-import { primaryColor } from './constants/constant'
-import Outlinebuttonbig from './components/OutlinebuttonBig'
-import Primarybutton from './components/PrimarybuttonBig'
+import React, { useEffect } from "react";
+import marketlaunch from "./images/market-launch-pana.svg";
+import { primaryColor } from "./constants/constant";
+import Outlinebuttonbig from "./components/OutlinebuttonBig";
+import Primarybutton from "./components/PrimarybuttonBig";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default function Home() {
+  useEffect(() => {
+    AOS.init({ duration: 2000, once: "true" });
+  }, []);
+
   return (
-    <div id='Home' className='d-flex flex-wrap flex-row justify-content-start py-5 col-lg-12' style={{ margin: '60px 0px 20px 0px'}}>
-      <div className='' style={{ flex: '1', minWidth: '300px', textAlign:'center' }}>
-        <p className='col-md-8' style={{ color: 'black', fontWeight: 'bold',fontSize: '49px' ,textAlign:'start', fontFamily:'sans-serif' }}>Promote Your Products by Colorlib</p>
-        <p style={{ fontSize: '20px' , textAlign:'start'}}>
-          Another cool free html css template by <span style={{ color: primaryColor }}>Colorlib</span> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
+    <div
+      id="Home"
+      className="d-flex flex-wrap flex-row justify-content-start py-5 col-lg-12"
+      style={{ margin: "60px 0px 20px 0px" }}
+    >
+      <div
+        data-aos="fade-up  order-lg-1 order-2"
+        className=""
+        style={{ flex: "1", minWidth: "300px", textAlign: "center" }}
+      >
+        <p
+          className="col-lg-8"
+          style={{
+            color: "black",
+            fontWeight: "bold",
+            textAlign: "start",
+            fontSize:'49px',
+            fontFamily: "sans-serif",
+          }}
+        >
+          Promote Your Products by Colorlib
         </p>
-        <div style={{ direction: 'column',textAlign:'start' }}>
-          <Primarybutton text={'See Features'} />
-          <Outlinebuttonbig text={'Pricing'} />
+        <p style={{ fontSize: "20px", textAlign: "start" }}>
+          Another cool free html css template by{" "}
+          <span style={{ color: primaryColor }}>Colorlib</span> Far far away,
+          behind the word mountains, far from the countries Vokalia and
+          Consonantia, there live the blind texts. Separated they live in
+          Bookmarksgrove right at the coast
+        </p>
+        <div
+          data-aos="fade-up"
+          style={{ direction: "column", textAlign: "start" }}
+        >
+          <Primarybutton text={"See Features"} />
+          <Outlinebuttonbig text={"Pricing"} />
         </div>
       </div>
-      <img src={marketlaunch} width={'100%'} height={'auto'} style={{ margin: '20px 0', maxWidth: '650px' }} alt="Market Launch" />
+      <img
+      className="order-lg-2 order-1 "
+        src={marketlaunch}
+        data-aos="fade-right"
+        width={"100%"}
+        height={"auto"}
+        style={{ margin: "20px 0", maxWidth: "650px" }}
+        alt="Market Launch"
+      />
     </div>
   );
-  
 }

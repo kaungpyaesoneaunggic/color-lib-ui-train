@@ -20,7 +20,7 @@ export default function Pricingtwo() {
           color={accentRed}
           icon={faRefresh}
           toptext={'Grow Your Business'}/>
-          <p style={{ color:primaryColor, margin:'0px', marginLeft:'18%' }}>Learn More</p>
+          <p className='col-md-12 text-center' style={{ color:primaryColor}}>Learn More</p>
        </div>
 
        {/* card 2 */}
@@ -29,7 +29,7 @@ export default function Pricingtwo() {
           color={accentYellow}
           icon={faCode}
           toptext={'Build Products'}/>
-          <p style={{ color:primaryColor, margin:'0px' , marginLeft:'18%'}}>Learn More</p>
+          <p className='col-md-12 text-center' style={{ color:primaryColor}}>Learn More</p>
        </div>
     </div>
     <br></br>
@@ -41,7 +41,7 @@ export default function Pricingtwo() {
           color={accentCyan}
           icon={faTasks}
           toptext={'Grow Your Business'}/>
-          <p style={{ color:primaryColor, margin:'0px' ,  marginLeft:'18%'}}>Learn More</p>
+          <p className='col-md-12 text-center' style={{ color:primaryColor}}>Learn More</p>
        </div>
 
        {/* card 4 */}
@@ -50,7 +50,7 @@ export default function Pricingtwo() {
           color={primaryColor}
           icon={faSuitcase}
           toptext={'Build Products'}/>
-          <p style={{ color:primaryColor, margin:'0px' , marginLeft:'18%'}}>Learn More</p>
+          <p className='col-md-12 text-center'  style={{ color:primaryColor}}>Learn More</p>
        </div>
     </div>
 

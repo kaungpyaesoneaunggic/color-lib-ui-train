@@ -67,7 +67,7 @@ export default function Footer() {
 <div className="col-12 text-center">
 <p>
 
-Copyright © 2024 All rights reserved | This template is made with <FontAwesomeIcon icon={faHeart} color='red'/> by <a href="https://colorlib.com" target="_blank" style={{ textDecoration:'none',color:primaryColor}}>Colorlib</a>
+Copyright &copy; 2024 All rights reserved | This template is made with <FontAwesomeIcon icon={faHeart} color='red'/> by <a href="https://colorlib.com" target="_blank" style={{ textDecoration:'none',color:primaryColor}}>Colorlib</a>
 </p>
 </div>
 </div>

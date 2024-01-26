@@ -14,7 +14,7 @@ export default function UserPostCard({user,date,image,text}) {
       <br></br>
       <p>Digital Services 4 min read</p>
       <p style={{ color:'black', fontSize:'25px' }}>{text}</p>
-      <button><FontAwesomeIcon icon={faArrowRight}/></button>
+      <button className='btn btn-dark'><FontAwesomeIcon color='white' icon={faArrowRight}/></button>
     </div>
   )
 }
