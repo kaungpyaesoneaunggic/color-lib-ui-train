@@ -3,6 +3,7 @@ import marketlaunch from "./images/market-launch-pana.svg";
 import { primaryColor } from "./constants/constant";
 import Outlinebuttonbig from "./components/OutlinebuttonBig";
 import Primarybutton from "./components/PrimarybuttonBig";
+import './Home.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -18,17 +19,16 @@ export default function Home() {
       style={{ margin: "60px 0px 20px 0px" }}
     >
       <div
-        data-aos="fade-up  order-lg-1 order-2"
-        className=""
+        data-aos="fade-up"
+        className=" order-lg-1 order-2"
         style={{ flex: "1", minWidth: "300px", textAlign: "center" }}
       >
-        <p
+        <p id="top-label"
           className="col-lg-8"
           style={{
             color: "black",
             fontWeight: "bold",
             textAlign: "start",
-            fontSize:'49px',
             fontFamily: "sans-serif",
           }}
         >
