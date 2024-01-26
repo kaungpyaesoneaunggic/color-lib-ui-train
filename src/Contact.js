@@ -19,7 +19,7 @@ export default function Contact() {
             <div className="col-lg-7">
               <form className="contact-form">
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-md-6">
                     <div className="form-group">
                       <label className="" for="fname">
                         First name
@@ -37,7 +37,7 @@ export default function Contact() {
                       />
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-md-6">
                     <div className="form-group">
                       <label className="" for="lname">
                         Last name
