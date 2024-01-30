@@ -1,0 +1,20 @@
+.columns{
+display: flex;
+align-items: center;
+flex-direction: column;
+background-color: #FFFFFF;
+border-radius: 40px ;
+padding: 60px 0px 60px 0px;
+margin: 10px
+}
+.divTextTicks{
+display: flex;
+flex-direction: row;
+width:250px ;
+}
+.divTextTicks p{
+ margin: 0px;
+ font-size: 18px;
+ width: 180px;
+  }
+  

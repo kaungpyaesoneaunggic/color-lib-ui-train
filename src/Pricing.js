@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
 import Outlinebuttonbig from './components/OutlinebuttonBig'
 import Primarybutton from './components/PrimarybuttonBig'
+import './Pricing.css'
+
 
 export default function Pricing() {
   return (
@@ -18,26 +20,26 @@ export default function Pricing() {
 
       
       {/* Column 1 start */}
-      <div className='col-lg-3 row-lg-4' style={{display:'flex', alignItems:'center',flexDirection:'column' , backgroundColor:'white', borderRadius:'40px',padding:'60px 0px 60px 0px',margin:'10px' }}>
+      <div className='col-lg-3 row-lg-4 columns' >
         <p style={{ color:'black',fontSize:'30px' }}>Free</p>
         <p style={{ color:primaryColor,fontSize:'35px' }}>$0</p>
 
         {/* text with tick */}
-        <div style={{display:'flex', flexDirection:'row',width:'250px' }}>
+        <div className='divTextTicks'>
         <FontAwesomeIcon icon={faCheck} style={{ color:primaryColor, width:'50px', margin:'0' }}/>
-        <p style={{ margin:'0', fontSize:'18px', width:'180px' }}> There live the blind texts</p>
+        <p> There live the blind texts</p>
         </div>
 
         {/* text with tick */}
-        <div style={{display:'flex', flexDirection:'row',width:'250px' }}>
+        <div className='divTextTicks'>
         <FontAwesomeIcon icon={faCheck} style={{ color:primaryColor, width:'50px', margin:'0' }}/>
-        <p style={{ margin:'0', fontSize:'18px', width:'180px' }}> There live the blind texts</p>
+        <p> There live the blind texts</p>
         </div>
 
         {/* text with tick */}
-        <div style={{display:'flex', flexDirection:'row',width:'250px', marginBottom:'40px' }}>
+        <div className='divTextTicks' style={{ marginBottom:'40px'  }}>
         <FontAwesomeIcon icon={faCheck} style={{ color:primaryColor, width:'50px', margin:'0' }}/>
-        <p style={{ margin:'0', fontSize:'18px', width:'180px' }}> Far from the countries Vokalia and Consonantia</p>
+        <p > Far from the countries Vokalia and Consonantia</p>
         </div>
         <Outlinebuttonbig
         text={'Get Started'}
@@ -47,27 +49,27 @@ export default function Pricing() {
 
 
       {/* Column 2 start */}
-      <div className='col-lg-3 row-lg-4' style={{display:'flex', alignItems:'center',flexDirection:'column' , backgroundColor:'white', borderRadius:'40px',padding:'60px 20px 60px 20px',margin:'10px' }}>
+      <div className='col-lg-3 row-lg-4 columns' >
 
         <p style={{ color:'black',fontSize:'30px' }}>Standard</p>
         <p style={{ color:primaryColor,fontSize:'35px' }}>$19.99</p>
 
         {/* text with tick */}
-        <div style={{display:'flex', flexDirection:'row',width:'250px' }}>
+        <div className='divTextTicks'>
         <FontAwesomeIcon icon={faCheck} style={{ color:primaryColor, width:'50px', margin:'0' }}/>
-        <p style={{ margin:'0', fontSize:'18px', width:'180px' }}> There live the blind texts</p>
+        <p > There live the blind texts</p>
         </div>
 
         {/* text with tick */}
-        <div style={{display:'flex', flexDirection:'row',width:'250px' }}>
+        <div className='divTextTicks'>
         <FontAwesomeIcon icon={faCheck} style={{ color:primaryColor, width:'50px', margin:'0' }}/>
-        <p style={{ margin:'0', fontSize:'18px', width:'180px' }}> There live the blind texts</p>
+        <p > There live the blind texts</p>
         </div>
 
         {/* text with tick */}
-        <div style={{display:'flex', flexDirection:'row',width:'250px' , marginBottom:'40px'}}>
+        <div className='divTextTicks' style={{marginBottom:'40px'}}>
         <FontAwesomeIcon icon={faCheck} style={{ color:primaryColor, width:'50px', margin:'0' }}/>
-        <p style={{ margin:'0', fontSize:'18px', width:'180px' }}> Far from the countries Vokalia and Consonantia</p>
+        <p> Far from the countries Vokalia and Consonantia</p>
         </div>
         <Primarybutton
         text={'Get Started'}
@@ -76,27 +78,27 @@ export default function Pricing() {
       {/* Column 2 End */}
 
       {/* Column 3 start */}
-      <div className='col-lg-3 row-lg-4' style={{display:'flex', alignItems:'center',flexDirection:'column' , backgroundColor:'white', borderRadius:'40px',padding:'60px 20px 60px 20px',margin:'10px' }}>
+      <div className='col-lg-3 row-lg-4 columns'>
 
         <p style={{ color:'black',fontSize:'30px' }}>Premium</p>
         <p style={{ color:primaryColor,fontSize:'35px' }}>$79.99</p>
 
         {/* text with tick */}
-        <div style={{display:'flex', flexDirection:'row',width:'250px' }}>
+        <div className='divTextTicks'>
         <FontAwesomeIcon icon={faCheck} style={{ color:primaryColor, width:'50px', margin:'0' }}/>
-        <p style={{ margin:'0', fontSize:'18px', width:'180px' }}> There live the blind texts</p>
+        <p> There live the blind texts</p>
         </div>
 
         {/* text with tick */}
-        <div style={{display:'flex', flexDirection:'row',width:'250px' }}>
+        <div className='divTextTicks'>
         <FontAwesomeIcon icon={faCheck} style={{ color:primaryColor, width:'50px', margin:'0' }}/>
-        <p style={{ margin:'0', fontSize:'18px', width:'180px' }}> There live the blind texts</p>
+        <p> There live the blind texts</p>
         </div>
 
         {/* text with tick */}
-        <div style={{display:'flex', flexDirection:'row',width:'250px', marginBottom:'40px' }}>
+        <div className='divTextTicks' style={{marginBottom:'40px' }}>
         <FontAwesomeIcon icon={faCheck} style={{ color:primaryColor, width:'50px', margin:'0' }}/>
-        <p style={{ margin:'0', fontSize:'18px', width:'180px' }}> Far from the countries Vokalia and Consonantia</p>
+        <p > Far from the countries Vokalia and Consonantia</p>
         </div>
 
         <Outlinebuttonbig

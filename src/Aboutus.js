@@ -6,6 +6,7 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons'
 import CountUp from 'react-countup'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import './Aboutus.css'
 
 export default function Aboutus() {
   useEffect(()=>{
@@ -27,28 +28,28 @@ export default function Aboutus() {
 
 
         {/* text with ticks */}
-        <div style={{display:'flex', flexDirection:'row',width:'300px', justifyContent:'start', alignItems:'center',marginTop:'20px'}}>
-        <FontAwesomeIcon icon={faCheck} style={{ color:primaryColor, width:'20px', margin:'0' }}/>
-        <p style={{ margin:'0', fontSize:'18px', width:'250px' }}> There live the blind texts</p>
+        <div className='divTextTick'>
+        <FontAwesomeIcon icon={faCheck} className='faTickIcon'/>
+        <p > There live the blind texts</p>
         </div>
         {/* text with ticks */}
-        <div style={{display:'flex', flexDirection:'row',width:'300px', justifyContent:'start', alignItems:'center',marginTop:'20px' }}>
-        <FontAwesomeIcon icon={faCheck} style={{ color:primaryColor, width:'20px', margin:'0' }}/>
-        <p style={{ margin:'0', fontSize:'18px', width:'250px' }}> Far far away behind the word</p>
+        <div className='divTextTick'>
+        <FontAwesomeIcon icon={faCheck}  className='faTickIcon'/>
+        <p > Far far away behind the word</p>
         </div>
         {/* text with ticks */}
-        <div style={{display:'flex', flexDirection:'row',width:'300px', justifyContent:'start', alignItems:'center',marginTop:'20px' }}>
-        <FontAwesomeIcon icon={faCheck} style={{ color:primaryColor, width:'20px', margin:'0' }}/>
-        <p style={{ margin:'0', fontSize:'18px', width:'250px' }}> Their place and supplies</p>
+        <div className='divTextTick'>
+        <FontAwesomeIcon icon={faCheck}  className='faTickIcon'/>
+        <p > Their place and supplies</p>
         </div>
 
-        <div data-aos='fade-up' style={{display:'flex',flexDirection:'row',margin:'15px', width:'300px' }}>
+        <div data-aos='fade-up' className='divCountUp' >
           <div style={{ direction:'row',width:'180px'}}>
-            <p style={{ color:'black', fontSize:'35px', marginBottom:'1px'}}><CountUp end={59} duration={5} delay={3} />M</p>
+            <p style={{ color:'black', fontSize:'35px', marginBottom:'1px'}}><CountUp data-aos='' end={59} duration={5} />M</p>
             <p>Members</p>
           </div>
           <div style={{ direction:'row' ,width:'180px'}}>
-            <p style={{ color:'black', fontSize:'35px', marginBottom:'1px'}}><CountUp end={14} duration={5} delay={3}/></p>
+            <p style={{ color:'black', fontSize:'35px', marginBottom:'1px'}}><CountUp end={14} duration={5}/></p>
             <p>Teams</p>
           </div>
         </div>

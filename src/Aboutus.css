@@ -1,45 +1,4 @@
-
-#About {
-  margin-top: 150px;
-  margin-bottom: 150px;
-}
-
-#About img {
-  width: 100%; /* Make the image fill the container */
-  object-fit: fill;
-}
-
-#About .content-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-#About .content-container .text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-#About .content-container .text-container p {
-  margin: 0;
-}
-
-#About .content-container .text-container p.heading {
-  color:'#407BFF'; /* Replace with your primary color */
-  font-size: 25px;
-}
-
-#About .content-container .text-container p.title {
-  color: black;
-  font-size: 45px;
-}
-
-#About .content-container .text-container .description {
-  margin-top: 20px;
-}
-
-#About .content-container .text-container .tick-text {
+.divTextTick{
   display: flex;
   flex-direction: row;
   width: 300px;
@@ -47,34 +6,20 @@
   align-items: center;
   margin-top: 20px;
 }
-
-#About .content-container .text-container .tick-text .tick-icon {
-  color:'#407BFF'; /* Replace with your primary color */
-  width: 20px;
-  margin: 0;
-}
-
-#About .content-container .text-container .tick-text .tick-text-content {
-  margin: 0;
+.divTextTick p{
+  margin: 0px;
   font-size: 18px;
   width: 250px;
-  text-align: start;
 }
 
-#About .content-container .text-container .member-info {
+.faTickIcon{
+  color: #407BFF;
+  width: 20px;
+  margin: 0px;
+}
+.divCountUp{
   display: flex;
   flex-direction: row;
   margin: 15px;
   width: 300px;
-}
-
-#About .content-container .text-container .member-info .info-item {
-  direction: row;
-  width: 180px;
-}
-
-#About .content-container .text-container .member-info .info-item p {
-  color: black;
-  font-size: 35px;
-  margin-bottom: 1px;
 }
