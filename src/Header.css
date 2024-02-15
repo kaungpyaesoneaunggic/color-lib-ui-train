@@ -2,3 +2,8 @@
   display: flex;
   justify-content: space-around;
 }
+.custom-link {
+  color: black; /* Example link color */
+  text-decoration: none;
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+}

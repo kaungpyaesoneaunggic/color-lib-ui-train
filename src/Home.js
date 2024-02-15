@@ -15,8 +15,7 @@ export default function Home() {
   return (
     <div
       id="Home"
-      className="d-flex flex-wrap flex-row justify-content-start py-5 col-lg-12"
-      style={{ margin: "60px 0px 20px 0px" }}
+      className="d-flex flex-wrap flex-row justify-content-start col-lg-12"
     >
       <div
         data-aos="fade-up"

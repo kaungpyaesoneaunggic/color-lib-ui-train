@@ -37,7 +37,7 @@ export default function Aboutus() {
     <div
       id="About"
       className="d-flex flex-wrap jusify-content-between"
-      style={{ marginTop: "150px", marginBottom: "150px" }}
+      style={{}}
     >
       <img
         src={aboutusimg}

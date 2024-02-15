@@ -11,6 +11,7 @@ import {
   Dropdown,
 } from "react-bootstrap";
 import "./Header.css";
+import { Link, Routes } from "react-router-dom";
 
 export default function Header() {
   const [isNavOpen, setNavOpen] = useState(false);
@@ -20,7 +21,8 @@ export default function Header() {
   };
 
   return (
-    <Navbar
+    <div>
+<Navbar
       expand="lg"
       className={`navbar-light ${isNavOpen ? "navbar-flex" : ""}`}
       style={{
@@ -47,7 +49,7 @@ export default function Header() {
         className={`justify-content-between ${isNavOpen ? "show" : ""}`}
       >
         <Nav className="mr-auto">
-          <Nav.Link href="#Home">Home</Nav.Link>
+        <Link to={'/'}  className="custom-link">Home</Link>
           <Nav.Link href="#">Link</Nav.Link>
           <Dropdown>
             <Dropdown.Toggle id="dropdown-basic"  style={{ backgroundColor:'white', color:'grey', border:'none' }}>
@@ -59,10 +61,13 @@ export default function Header() {
               <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-          <Nav.Link href="#Features">Features</Nav.Link>
-          <Nav.Link href="#Pricing">Pricing</Nav.Link>
+          <Link to={'/features'}  className="custom-link">Features</Link>
+          <Link to={'/pricing'}  className="custom-link">Pricing</Link>
+          <Link to={'/aboutus'}  className="custom-link">About</Link>
+          <Link to={'/contact'}  className="custom-link">Contact</Link>
+          {/* <Nav.Link href="#Pricing">Pricing</Nav.Link>
           <Nav.Link href="#About">About</Nav.Link>
-          <Nav.Link href="#Contact">Contact</Nav.Link>
+          <Nav.Link href="#Contact">Contact</Nav.Link> */}
         </Nav>
         <div>
           <Outlinebutton text={"Register"} />
@@ -70,5 +75,8 @@ export default function Header() {
         </div>
       </Navbar.Collapse>
     </Navbar>
+    </div>
+    
+    
   );
 }
