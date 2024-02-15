@@ -31,7 +31,7 @@ function App() {
       <div  style={{ padding:'0px 8% 0px 8%',overflow:'hidden'}}>
       <Header/>
       {/* Here was Home And Features before */}
-      <div className='my-5 py-5'>
+      <div className='my-5 pt-5' >
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/features' element={<><Features/><Featurestwo/><Featuresthree/></>}/>
